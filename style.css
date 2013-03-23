@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+body {
+    background-color: #eeeeee;
+}
+
+.container, .top, .footer {
+    margin: 10px auto;
+    padding: 2em;
+    max-width: 800px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333333;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3em;
+}
+
+img
+{
+    background: dimgray;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 15px 10px 10px;
+    margin: 10px 0;
+    max-width: 95%;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+@media all and (max-width: 600px){
+	
+	#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a{
+		
+	}
+		
+		
+}
+
+@media all and (min-width: 600px){
+
+	#cssmenu, #cssmenu ul, #cssmenu ul li{
+		display: block;
+		height: 37px;
+		padding: 22px 30px 0;
+		margin: 4px 2px 0;
+		border-radius: 2px 2px 0 0;
+		text-decoration: none;
+		font-size: 15px;
+		color: white;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
+		font-weight: 400;
+		opacity: .9;
+	
+	}
+
+	#cssmenu:before, #cssmenu:after, #cssmenu > ul:before, #cssmenu > ul:after {
+
+		content: '';
+		display: table;
+	
+	}
+
+
+	#cssmenu:after, #cssmenu > ul:after {
+
+		clear: both;
+	
+	}
+
+	#cssmenu {
+		margin: 10px auto;
+		max-width: 856px;
+		zoom:1;
+		height: 69px;
+		background: url(images/bottom-bg.png) repeat-x center bottom;
+		border-radius: 2px;
+	
+	}
+
+	#cssmenu ul{
+
+		background: url(images/nav-bg.png) repeat-x 0px 4px;
+		height: 69px;
+	
+	}
+
+	#cssmenu ul li{
+
+		float: left;
+		list-style: none;
+	
+	}
+
+	#cssmenu ul li a{
+	
+		display: block;
+		height: 37px;
+		padding: 22px 30px 0;
+		margin: 4px 2px 0;
+		border-radius: 2px 2px 0 0;
+		text-decoration: none;
+		font-size: 15px;
+		color: white;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
+		font-weight: 400;
+		opacity: .9;
+	
+	}
+
+	#cssmenu ul li:first-child a{
+	
+		margin: 4px 2px 0 0;
+	
+	}
+
+	#cssmenu ul li a:hover, #cssmenu ul li.active a{
+	
+		background: url(images/color.png) center bottom;
+		display: block;
+		height: 37px;
+		margin-top: 0px;
+		padding-top: 26px;
+		color: #004f7c;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, .55);
+		opacity: 1;
+	
+		}
+}
