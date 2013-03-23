@@ -88,7 +88,7 @@ hr {
 .nabar .current a:hover {
 	border-width: 0px;
 }
-@media all and (max-width: 400px){
+@media all and (max-width: 500px){
 	.navbar li {
 	display: block;
 }
