@@ -1,7 +1,7 @@
 <?php if(!defined('IN_GS')){ die('you cannot load this page directly.'); }
 /****************************************************
 *
-* @File:      template.php
+* @File:      Small.php
 * @Package:   GetSimple
 * @Action:    Simple Theme for GetSimple CMS
 *
@@ -9,7 +9,7 @@
 ?>
 <!DOCTYPE html>
 <html>
-    <?php include("assets/header.inc.php"); ?>
+    <?php include("assets/header-small.inc.php"); ?>
     <body>
 		<div class="top">
 			<h1 id="title"><?php get_site_name(); ?></h1>

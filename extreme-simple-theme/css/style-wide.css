@@ -3,10 +3,14 @@ body {
     background-color: #eeeeee;
 }
 
+#title{
+	text-align: center;
+}
+
 .container, .top, .footer {
     margin: 10px auto;
     padding: 2em;
-    max-width: 800px;
+    max-width: 1000px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     line-height: 1.5em;
@@ -49,7 +53,7 @@ hr {
 .navbar {
 	margin: 10px auto;
     padding: 1em;
-    max-width: 824px;
+    max-width: 1024px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px
     color: #333333;
@@ -90,6 +94,6 @@ hr {
 }
 @media all and (max-width: 500px){
 	.navbar li {
-	display: block;
-}
+		display: block;
+	}
 }
