@@ -1,7 +1,6 @@
-Extreme-Simple-Theme (1.1.1)
-==
+#Bootstrap for GetSimple (1.0.0)
 
-A simple but nice theme for the GetSimple CMS. There is no Javascript, so it shout work on many Browser.
+Bootstrap for GetSimple is a Theme for the GetSimple CMS. Fell free to use it.
 
 <a href="http://www.w3.org/html/logo/">
 <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3.png" width="133" height="64" alt="HTML5 Powered with CSS3 / Styling" title="HTML5 Powered with CSS3 / Styling">
