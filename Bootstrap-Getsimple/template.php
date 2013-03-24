@@ -19,7 +19,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="brand" href="<?php get_page_url(); ?>"><?php get_site_name(); ?></a>
+                    <a class="brand" href="<?php get_site_url(); ?>"><?php get_site_name(); ?></a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
                             <?php get_navigation(return_page_slug()); ?>
@@ -46,6 +46,7 @@
             </div>
             <?php include("footer.inc.php")?>
         </div>
-        <?php include("scripts.inc.php")?>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="<?php get_theme_url(); ?>/js/bootstrap.min.js"></script>
     </body>
 </html>
